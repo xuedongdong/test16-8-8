@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29-dev/5, created on 2016-08-08 16:33:35
+/* Smarty version 3.1.29-dev/5, created on 2016-08-08 22:07:36
   from "D:\phpStudy\WWW\learn\1625ci\application\views\templates\product_list.php" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29-dev/5',
-  'unifunc' => 'content_57a843df324599_70536734',
+  'unifunc' => 'content_57a89228b558c4_80608909',
   'file_dependency' => 
   array (
     '64a28e6871164591db27bc9810f7a6ffddea374d' => 
     array (
       0 => 'D:\\phpStudy\\WWW\\learn\\1625ci\\application\\views\\templates\\product_list.php',
-      1 => 1470645201,
+      1 => 1470665249,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_57a843df324599_70536734 ($_smarty_tpl) {
+function content_57a89228b558c4_80608909 ($_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -91,7 +91,7 @@ function content_57a843df324599_70536734 ($_smarty_tpl) {
 					</tr>
 				</thead>
 				<tbody>
-				<?php
+					<?php
 $_from = $_smarty_tpl->tpl_vars['data']->value;
 if (!is_array($_from) && !is_object($_from)) {
 settype($_from, 'array');
@@ -120,7 +120,8 @@ $__foreach_val_0_saved_local_item = $_smarty_tpl->tpl_vars['val'];
 						<td><span class="price">356.0</span> 元/平米</td> -->
 						<td class="td-status"><span class="label label-success radius">已发布</span></td>
 						<td class="td-manage"><a style="text-decoration:none" onClick="product_stop(this,'10001')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a> <a style="text-decoration:none" class="ml-5" onClick="product_edit('产品编辑','/Goods/open_edit','<?php echo $_smarty_tpl->tpl_vars['val']->value['goods_id'];?>
-')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="product_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="product_del(this, <?php echo $_smarty_tpl->tpl_vars['val']->value['goods_id'];?>
+)" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 					</tr>
 					<?php
 $_smarty_tpl->tpl_vars['val'] = $__foreach_val_0_saved_local_item;
@@ -300,8 +301,48 @@ function product_edit(title,url,id){
 /*图片-删除*/
 function product_del(obj,id){
 	layer.confirm('确认要删除吗？',function(index){
+		$.ajax({
+			type : 'post',
+			url : '/Goods/del_goods',
+			data : {'goods_id' : id},
+			datatype : 'JSON',
+			success : function(res){
+				if (res == 'success') {
+					$(obj).parents("tr").remove();
+					layer.msg('已删除!',{icon:1,time:1000});
+				}else{
+					layer.msg('删除失败!',{icon:1,time:1000});
+				}
+			}
+		});
+	/*layer.confirm('确认要删除吗？',function(index){
 		$(obj).parents("tr").remove();
-		layer.msg('已删除!',{icon:1,time:1000});
+		layer.msg('已删除!',{icon:1,time:1000});*/
+	});
+}
+
+/*图片-批量删除*/
+function datadel(){
+	layer.confirm('确认要删除吗？',function(index){
+		if ($('input:checked').length-1 < 1) {
+			layer.msg('不能为空!',{icon:1,time:1000});
+		}else{
+			for (var i = 0; i <= $('input:checked').length-1; i++) {
+				$.ajax({
+					type : 'post',
+					url : '/Goods/del_goods',
+					data : {'goods_id' : $('input:checked').eq(i).val()},
+					datatype : 'JSON',
+					success : function(res){
+						if (res == 'fail') {
+							return false;
+						}
+					}
+				});
+			};
+			$('input:checked').parents("tr").remove();
+			layer.msg('已删除!',{icon:1,time:1000});
+		}
 	});
 }
 

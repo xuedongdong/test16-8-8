@@ -57,7 +57,7 @@
 					</tr>
 				</thead>
 				<tbody>
-				{foreach $data as $val}
+					{foreach $data as $val}
 					<tr class="text-c va-m">
 						<td><input name="" type="checkbox" value="{$val.goods_id}"></td>
 						<td>{$val.goods_id}</td>
@@ -69,7 +69,7 @@
 						<td class="text-l">原木的外在,实木条形结构,色泽花纹自然,写意;款式设计吸取实木地板的天然去雕饰之美,在视觉上给人带来深邃联想.多款产品适合搭配不同的风格的室内装饰;功能流露出尊贵典雅的大气韵味。</td>
 						<td><span class="price">356.0</span> 元/平米</td> -->
 						<td class="td-status"><span class="label label-success radius">已发布</span></td>
-						<td class="td-manage"><a style="text-decoration:none" onClick="product_stop(this,'10001')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a> <a style="text-decoration:none" class="ml-5" onClick="product_edit('产品编辑','/Goods/open_edit','{$val.goods_id}')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="product_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+						<td class="td-manage"><a style="text-decoration:none" onClick="product_stop(this,'10001')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a> <a style="text-decoration:none" class="ml-5" onClick="product_edit('产品编辑','/Goods/open_edit','{$val.goods_id}')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="product_del(this, {$val.goods_id})" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 					</tr>
 					{/foreach}
 				</tbody>
@@ -227,8 +227,48 @@ function product_edit(title,url,id){
 /*图片-删除*/
 function product_del(obj,id){
 	layer.confirm('确认要删除吗？',function(index){
+		$.ajax({
+			type : 'post',
+			url : '/Goods/del_goods',
+			data : {'goods_id' : id},
+			datatype : 'JSON',
+			success : function(res){
+				if (res == 'success') {
+					$(obj).parents("tr").remove();
+					layer.msg('已删除!',{icon:1,time:1000});
+				}else{
+					layer.msg('删除失败!',{icon:1,time:1000});
+				}
+			}
+		});
+	/*layer.confirm('确认要删除吗？',function(index){
 		$(obj).parents("tr").remove();
-		layer.msg('已删除!',{icon:1,time:1000});
+		layer.msg('已删除!',{icon:1,time:1000});*/
+	});
+}
+
+/*图片-批量删除*/
+function datadel(){
+	layer.confirm('确认要删除吗？',function(index){
+		if ($('input:checked').length-1 < 1) {
+			layer.msg('不能为空!',{icon:1,time:1000});
+		}else{
+			for (var i = 0; i <= $('input:checked').length-1; i++) {
+				$.ajax({
+					type : 'post',
+					url : '/Goods/del_goods',
+					data : {'goods_id' : $('input:checked').eq(i).val()},
+					datatype : 'JSON',
+					success : function(res){
+						if (res == 'fail') {
+							return false;
+						}
+					}
+				});
+			};
+			$('input:checked').parents("tr").remove();
+			layer.msg('已删除!',{icon:1,time:1000});
+		}
 	});
 }
 {/literal}

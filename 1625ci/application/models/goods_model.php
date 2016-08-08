@@ -29,4 +29,8 @@ class goods_model extends CI_Model {
 		return $this->db->update($this->table,$data,$where);
 	}
 
+	public function del($data){
+		return $this->db->delete($this->table,$data);
+	}
+
 }

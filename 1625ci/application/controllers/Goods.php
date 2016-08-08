@@ -133,4 +133,16 @@ class Goods extends MY_Controller {
 		}
 	}
 
+
+	public function del_goods(){
+		$this -> load ->database();
+		$this -> load ->model('goods_model');
+		$result = $this -> goods_model ->del($_POST);
+		if ($result) {
+			echo "success";
+		}else{
+			echo "fail";
+		}
+	}
+
 }
