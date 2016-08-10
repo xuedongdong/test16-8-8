@@ -5,6 +5,12 @@ header("Content-type:text/html;charset=utf8");
 class IndexController extends Controller {
     public function index(){
         //$this->show('Hello world!');
+
+      //session(array('name'=>'session_id','expire'=>3600));
+      //session('name','value');
+      //$value = session('name');
+      //var_dump($value);exit;
+
     	$this -> assign('msg','请认真填写');
     	$this -> display('login');
     }
@@ -36,7 +42,10 @@ class IndexController extends Controller {
   			$password = md5(md5($_POST['password']).$salt);
   			//var_dump($password);exit;
   			if ($result['password'] == $password) {
-  				echo "success";
+  				//echo "success";
+          //
+          $this->success('登陆成功', '/index.php/Home/User/user_list');
+          //redirect('/User/user_list/');
   			}else{
   				echo "密码错误";
   				//var_dump($result);var_dump($data1);

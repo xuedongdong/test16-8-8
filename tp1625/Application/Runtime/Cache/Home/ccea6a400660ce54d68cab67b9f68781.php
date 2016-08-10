@@ -3,20 +3,20 @@
 		<meta charset="utf-8">
 		<title>login</title>
 		<!-- 新 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="/learn/tp1625/Public/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Public/bootstrap/css/bootstrap.min.css">
 
 <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-<link rel="stylesheet" href="/learn/tp1625/Public/bootstrap/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/Public/bootstrap/css/bootstrap-theme.min.css">
 
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="/learn/tp1625/Public/bootstrap/js/jquery-1.11.0.min.js"></script>
+<script src="/Public/bootstrap/js/jquery-1.11.0.min.js"></script>
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="/learn/tp1625/Public/bootstrap/js/bootstrap.min.js"></script>
+<script src="/Public/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body style="width:100%;">
 		
-	<form action="/learn/tp1625/index.php/Home/Index/do_login/" method="post" style="width:50%;margin:auto;border:1px;">
+	<form action="/index.php/Home/Index/do_login/" method="post" style="width:50%;margin:auto;border:1px;">
   	<div class="form-group">
     	<label for="exampleInputEmail1">用户</label>
     	<input type="text" class="form-control" name="user_name" id="user_name" placeholder="User_name">
@@ -28,13 +28,16 @@
     	<label>
      	 <input type="checkbox"> Check me out
     	</label>
+      <div class="formControls col-xs-8 col-xs-offset-3">
+          <input class="input-text size-L" type="text" placeholder="验证码" onblur="if(this.value==''){this.value='验证码:'}" onclick="if(this.value=='验证码:'){this.value='';}" name="verify" value="验证码:" style="width:150px;"><a id="kanbuq" href="/index.php/Home/Index/index/"><?php echo ($image); ?>看不清，换一张</a>
+      </div>
       <div class="form-group">
       <?php echo ($msg); ?>
       </div>
   		</div>
   	</div>
   	<input type="submit" class="btn btn-default" value="登陆">
-    <a href="/learn/tp1625/index.php/Home/Index/open_register/" class="btn btn-default" >注册</a>
+    <a href="/index.php/Home/Index/open_register/" class="btn btn-default" >注册</a>
     <!-- <input type="button" class="btn btn-default" value="注册" onclick="open_register()"> -->
 	</form>
 
@@ -42,7 +45,7 @@
   /*$('#register_button').click(function(){
     $.ajax({
       type : 'post',
-      url : '/learn/tp1625/index.php/Home/Index/doRegister/',
+      url : '/index.php/Home/Index/doRegister/',
       data : {
         user_name:$('#register_username').val(),
         password:$('#register_password').val(),

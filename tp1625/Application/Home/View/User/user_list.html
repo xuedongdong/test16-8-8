@@ -41,6 +41,7 @@
 		</ul>
 	</div>
 	<div style="width:70%;float:right;">
+		<a href="__CONTROLLER__/openAdd" type="button" class="btn btn-default">增</a>
 		<table class="table table-bordered">
 			<tr>
 				<th>1</th>
@@ -49,6 +50,7 @@
 				<th>性别</th>
 				<th>邮箱</th>
 				<th>生日</th>
+				<th>操作</th>
 			</tr>
 			<volist name='list' id='data'>
 			<tr>
@@ -58,6 +60,15 @@
 				<th>{$data.sex}</th>
 				<th>{$data.email}</th>
 				<th>{$data.birthday}</th>
+				<th>
+				<div>
+					<center style="clear:both;">
+						<!-- <a style="float:left;"  onclick="member_edit('__CONTROLLER__/openEdit/',{$data.user_id})" class="btn btn-primary">改</a> -->
+						<a style="float:left;" href="__CONTROLLER__/user_edit/?user_id={$data.user_id}" class="btn btn-primary">改</a>
+						<a style="float:right;" onclick="member_del(this,{$data.user_id})" class="btn btn-primary">删</a>
+					</center>
+				</div>
+				</th>
 			</tr>
 			</volist>
 		</table>
@@ -78,6 +89,31 @@
 			$(this).siblings('div').slideDown();
 		}
 	})
+
+/*用户-编辑*/
+//function member_edit(url,id){
+//	redirect(url+'?user_id='+id);
+//}
+
+	/*用户-删除*/
+function member_del(obj,id){
+	confirm('确认要删除吗？',function(index){
+		$.ajax({
+			type : 'post',
+			url : '/index.php/Home/User/userDel',
+			data : {'user_id' : id},
+			datatype : 'JSON',
+			success : function(res){
+				if (res == 'success') {
+					$(obj).parents("tr").remove();
+					layer.msg('已删除!',{icon:1,time:1000});
+				}else{
+					layer.msg('删除失败!',{icon:1,time:1000});
+				}
+			}
+		});
+	});
+}
 </script>
 </body>
 </html>
