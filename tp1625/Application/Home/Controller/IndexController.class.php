@@ -77,7 +77,8 @@ class IndexController extends Controller {
   		$data['salt'] = $salt;
   		$password = md5(md5($_POST['password1']).$salt);
   		$data['password'] = $password;
-  		//var_dump($data);exit;
+      //$data1 = $_POST['user_name'];
+  		//var_dump($data); var_dump($data1);exit;
   		$user = M('users');
   		$result = $user-> where('user_name='.'"'.$data.'"') -> find();
   		if (empty($result)) {

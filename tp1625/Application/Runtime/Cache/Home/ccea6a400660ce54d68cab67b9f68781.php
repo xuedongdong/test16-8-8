@@ -16,7 +16,7 @@
 	</head>
 	<body style="width:100%;">
 		
-	<form action="/learn/tp1625/index.php/Home/Index/do_login/" method="post" style="width:50%;margin:auto;">
+	<form action="/learn/tp1625/index.php/Home/Index/do_login/" method="post" style="width:50%;margin:auto;border:1px;">
   	<div class="form-group">
     	<label for="exampleInputEmail1">用户</label>
     	<input type="text" class="form-control" name="user_name" id="user_name" placeholder="User_name">
@@ -39,8 +39,30 @@
 	</form>
 
   <script type="text/javascript">
-    function open_register(){
-    }
+  /*$('#register_button').click(function(){
+    $.ajax({
+      type : 'post',
+      url : '/learn/tp1625/index.php/Home/Index/doRegister/',
+      data : {
+        user_name:$('#register_username').val(),
+        password:$('#register_password').val(),
+        repassword:$('#register_repassword').val()
+      },
+      success:function(res){
+        if (res == '1') {
+          $('$register_label').html('用户名不能为空')；
+        }else if(res == '2') {
+          $('$register_label').html('密码不能为空')；
+        }else if(res == '3') {
+          $('$register_label').html('两次密码不一样')；
+        }else if(res == '4') {
+          $('$register_label').html('用户名存在')；
+        }else{
+          $('$register_label').html('成功')；
+        }
+      }
+    });
+  })*/
   </script>
 
 	</body>
