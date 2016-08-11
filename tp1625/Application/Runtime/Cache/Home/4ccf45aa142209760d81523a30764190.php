@@ -16,9 +16,15 @@
 		<form action="/index.php/Home/User/userEdit" method="post">
 		<!-- <table class="table table-bordered"> -->
 		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户id：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="<?php echo ($data["user_id"]); ?>" readonly="readonly" id="user_id" name="user_id">
+			</div>
+		</div>
+		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户名：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="" id="user_name" name="user_name">
+				<input type="text" class="input-text" value="<?php echo ($data["user_name"]); ?>" placeholder="" id="user_name" name="user_name">
 			</div>
 		</div>
 		<!-- <div class="row cl">
@@ -43,13 +49,13 @@
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>生日：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="" placeholder="" id="birthday" name="birthday">
+				<input type="text" class="input-text" value="<?php echo ($data["birthday"]); ?>" placeholder="" id="birthday" name="birthday">
 			</div>
 		</div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>邮箱：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" placeholder="@" name="email" id="email">
+				<input type="text" class="input-text" value="<?php echo ($data["email"]); ?>" placeholder="@" name="email" id="email">
 			</div>
 		</div>
 		<div class="row cl">

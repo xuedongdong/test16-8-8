@@ -11,10 +11,10 @@ class UserController extends Controller {
 		//$page = 0;
 		$pageMin = 1;
 		//判断分页
-		if ($count%3==0) {
-			$pageMax = $count/3;
+		if ($count%8==0) {
+			$pageMax = $count/8;
 		}else{
-			$pageMax = intval($count/3) +1;
+			$pageMax = intval($count/8) +1;
 		}
 		//判断$_GET
 		if ($_GET) {
@@ -40,9 +40,9 @@ class UserController extends Controller {
 		//var_dump($page);
 
 		$this -> assign('page',$page);
-		$pageNow = 3*$page;
+		$pageNow = 8*$page;
 		$user = M('users');
-		$data = $user->order('user_id')->limit($pageNow,3)->select();
+		$data = $user->order('user_id')->limit($pageNow,8)->select();
 		$this -> assign('list',$data);
 		$pageShow = $page +1;
 		$this -> assign('pageShow',$pageShow);
@@ -92,55 +92,71 @@ class UserController extends Controller {
 	}
 
 	public function openEdit(){
+		//var_dump($_GET);exit;
+		$user = M('users');
+  		$datashow = $user-> where('user_id='.'"'.$_GET['user_id'].'"') -> find();
 		$this ->assign('msg','');
+		$this ->assign('data',$datashow);
 		$this -> display('user_edit');
 
 	}
 
 	public function userEdit(){
+		$user = M('users');
 		if (empty($_POST['user_name'])) {
+			$datashow = $user-> where('user_id='.'"'.$_POST['user_id'].'"') -> find();
 			$this->assign('msg','用户名不能为空');
+			$this ->assign('data',$datashow);
 			$this->display('user_edit');	
 			exit;
 		}
 		if (empty($_POST['birthday'])) {
+			$datashow = $user-> where('user_id='.'"'.$_POST['user_id'].'"') -> find();
 			$this->assign('msg','生日不能为空');
+			$this ->assign('data',$datashow);
 			$this->display('user_edit');	
 			exit;
 		}
 		if (empty($_POST['email'])) {
+			$datashow = $user-> where('user_id='.'"'.$_POST['user_id'].'"') -> find();
 			$this->assign('msg','邮箱不能为空');
+			$this ->assign('data',$datashow);
 			$this->display('user_edit');	
 			exit;
 		}
 
 		$data['user_name'] = $_POST['user_name'];
 		$id['user_id'] = $_POST['user_id'];
+		
 		$user = M('users');
-  		$data1 = $user-> where('user_name='.'"'.$data['user_name'].'"') -> find();
-		if ($data1['user_name']==$_POST['user_name']) {
+  		$data1 = $user-> where('user_id='.'"'.$id['user_id'].'"') -> find();
+		//var_dump($data1);exit;
+		if ($data1['user_name']==$data['user_name']) {
+			//echo "string"; 
 			$user = M('users');
-			$result = $user-> where('user_name='.'"'.$data['user_name'].'"') -> save($_POST); ;
+			$result = $user-> where('user_id='.'"'.$id['user_id'].'"') -> save($_POST); 
 			if ($result) {
-				echo "修改成功";
+				echo "修改成功！！！";
 			}else{
-				echo "修改失败";
+				echo "未修改！！！";
 			}
 			exit;
 		}else{
-			$data2 = $this -> user_model ->user($user);
+			$data2 = $user-> where('user_name='.'"'.$data['user_name'].'"') -> find();
 			if ($data2) {
+				$datashow = $user-> where('user_id='.'"'.$_POST['user_id'].'"') -> find();
 				$this->assign('msg','用户名已存在');
+				$this ->assign('data',$datashow);
 				$this->display('user_edit');	
 				exit;
 			}
 		}
 		$user = M('users');
-		$result = $user-> where('user_name='.'"'.$data['user_name'].'"') -> save($_POST); ;
+		$result = $user-> where('user_id='.'"'.$id['user_id'].'"') -> save($_POST); ;
 		if ($result) {
-			echo "修改成功";
+			echo "修改成功！！！";
 		}else{
-			echo "修改失败";
+			echo "修改失败！！！";
 		}
 	}
 

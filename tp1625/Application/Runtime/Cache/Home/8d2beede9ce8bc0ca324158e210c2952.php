@@ -52,7 +52,7 @@
 				<th>生日</th>
 				<th>操作</th>
 			</tr>
-			<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
+			<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr id="<?php echo ($data["user_id"]); ?>">
 				<th>1</th>
 				<th><?php echo ($data["user_id"]); ?></th>
 				<th><?php echo ($data["user_name"]); ?></th>
@@ -63,7 +63,7 @@
 				<div>
 					<center style="clear:both;">
 						<!-- <a style="float:left;"  onclick="member_edit('/index.php/Home/User/openEdit/',<?php echo ($data["user_id"]); ?>)" class="btn btn-primary">改</a> -->
-						<a style="float:left;" href="/index.php/Home/User/user_edit/?user_id=<?php echo ($data["user_id"]); ?>" class="btn btn-primary">改</a>
+						<a style="float:left;" href="/index.php/Home/User/openEdit/?user_id=<?php echo ($data["user_id"]); ?>" class="btn btn-primary">改</a>
 						<a style="float:right;" onclick="member_del(this,<?php echo ($data["user_id"]); ?>)" class="btn btn-primary">删</a>
 					</center>
 				</div>
@@ -94,23 +94,38 @@
 //}
 
 	/*用户-删除*/
-function member_del(obj,id){
+function m2ember_del(obj,id){
 	confirm('确认要删除吗？',function(index){
+		alert(index);
 		$.ajax({
 			type : 'post',
 			url : '/index.php/Home/User/userDel',
 			data : {'user_id' : id},
 			datatype : 'JSON',
 			success : function(res){
-				if (res == 'success') {
-					$(obj).parents("tr").remove();
-					layer.msg('已删除!',{icon:1,time:1000});
-				}else{
-					layer.msg('删除失败!',{icon:1,time:1000});
-				}
+				alert(123);
 			}
 		});
 	});
+
+}
+
+/*用户-删除*/
+function member_del(obj,id)
+{
+var r=confirm("确认要删除吗？");
+if (r==true)
+  {
+  $.ajax({
+			type : 'post',
+			url : '/index.php/Home/User/userDel',
+			data : {'user_id' : id},
+			datatype : 'JSON',
+			success : function(res){
+				$('#'+id).remove();
+			}
+		});
+  }
 }
 </script>
 </body>
