@@ -90,8 +90,16 @@ class AddressController extends Controller {
 			exit;
 		}else{
 			$address = M('user_address');
-			$address -> data($_POST)->add();
-			echo "输入成功，请刷新页面";
+			$result = $address -> data($_POST)->add();
+			if($result){    
+			//设置成功后跳转页面的地址，默认的返回页面是$_SERVER['HTTP_REFERER']    
+				$this->success('新增成功', '/index.php/Home/Address/address_list');
+			} 
+			else {    
+			//错误页面的默认跳转页面是返回前一页，通常不需要设置    
+				$this->error('新增失败');
+			}
+			//echo "输入成功，请刷新页面";
 		}
 	}
 
@@ -144,9 +152,13 @@ class AddressController extends Controller {
 			$address = M('user_address');
 			$result = $address-> where('address_id='.'"'.$id['address_id'].'"') -> save($_POST); 
 			if ($result) {
-				echo "修改成功！！！";
+				//设置成功后跳转页面的地址，默认的返回页面是$_SERVER['HTTP_REFERER']    
+				$this->success('修改成功', '/index.php/Home/Address/address_list');
+				//echo "修改成功！！！";
 			}else{
-				echo "未修改！！！";
+				//错误页面的默认跳转页面是返回前一页，通常不需要设置    
+				$this->error('修改失败');
+				//echo "修改失败！！！";
 			}
 			exit;
 		}else{
@@ -162,9 +174,13 @@ class AddressController extends Controller {
 		$address = M('user_address');
 		$result = $address-> where('address_id='.'"'.$id['address_id'].'"') -> save($_POST); ;
 		if ($result) {
-			echo "修改成功！！！";
+			//设置成功后跳转页面的地址，默认的返回页面是$_SERVER['HTTP_REFERER']    
+			$this->success('修改成功', '/index.php/Home/Address/address_list');
+			//echo "修改成功！！！";
 		}else{
-			echo "修改失败！！！";
+			//错误页面的默认跳转页面是返回前一页，通常不需要设置    
+			$this->error('修改失败');
+			//echo "修改失败！！！";
 		}
 	}
 

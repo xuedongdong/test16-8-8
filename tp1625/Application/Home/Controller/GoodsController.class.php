@@ -90,8 +90,16 @@ class GoodsController extends Controller {
 			exit;
 		}else{
 			$goods = M('goods');
-			$goods -> data($_POST)->add();
-			echo "输入成功，请刷新页面";
+			$result = $goods -> data($_POST)->add();
+			if($result){    
+			//设置成功后跳转页面的地址，默认的返回页面是$_SERVER['HTTP_REFERER']    
+				$this->success('新增成功', '/index.php/Home/Goods/goods_list');
+			} 
+			else {    
+			//错误页面的默认跳转页面是返回前一页，通常不需要设置    
+				$this->error('新增失败');
+			}
+			//echo "输入成功，请刷新页面";
 		}
 	}
 
@@ -117,19 +125,19 @@ class GoodsController extends Controller {
 		if (empty($_POST['goods_number'])) {
 			$datashow = $goods-> where('goods_id='.'"'.$_POST['goods_id'].'"') -> find();
 			$this->assign('msg','商品数量不能为空');
-			$this->display('goods_add');	
+			$this->display('goods_edit');	
 			exit;
 		}
 		if (empty($_POST['market_price'])) {
 			$datashow = $goods-> where('goods_id='.'"'.$_POST['goods_id'].'"') -> find();
 			$this->assign('msg','商品价格不能为空');
-			$this->display('goods_add');	
+			$this->display('goods_edit');	
 			exit;
 		}
 		if (empty($_POST['keywords'])) {
 			$datashow = $goods-> where('goods_id='.'"'.$_POST['goods_id'].'"') -> find();
 			$this->assign('msg','商品描述不能为空');
-			$this->display('goods_add');	
+			$this->display('goods_edit');	
 			exit;
 		}
 
@@ -144,9 +152,13 @@ class GoodsController extends Controller {
 			$goods = M('goods');
 			$result = $goods-> where('goods_id='.'"'.$id['goods_id'].'"') -> save($_POST); 
 			if ($result) {
-				echo "修改成功！！！";
+				//设置成功后跳转页面的地址，默认的返回页面是$_SERVER['HTTP_REFERER']    
+				$this->success('修改成功', '/index.php/Home/Goods/goods_list');
+				//echo "修改成功！！！";
 			}else{
-				echo "未修改！！！";
+				//错误页面的默认跳转页面是返回前一页，通常不需要设置    
+				$this->error('修改失败');
+				//echo "修改失败！！！";
 			}
 			exit;
 		}else{
@@ -162,9 +174,13 @@ class GoodsController extends Controller {
 		$goods = M('goods');
 		$result = $goods-> where('goods_id='.'"'.$id['goods_id'].'"') -> save($_POST); ;
 		if ($result) {
-			echo "修改成功！！！";
+			//设置成功后跳转页面的地址，默认的返回页面是$_SERVER['HTTP_REFERER']    
+			$this->success('修改成功', '/index.php/Home/Goods/goods_list');
+			//echo "修改成功！！！";
 		}else{
-			echo "修改失败！！！";
+			//错误页面的默认跳转页面是返回前一页，通常不需要设置    
+			$this->error('修改失败');
+			//echo "修改失败！！！";
 		}
 	}
 

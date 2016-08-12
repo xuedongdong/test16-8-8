@@ -1,0 +1,2098 @@
+[ 2016-08-12T09:46:53+08:00 ] 127.0.0.1 /index.php/Home/User/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ecs_users`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecs_users` ORDER BY user_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:47:15+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.1620s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:47:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list/?type=add&page=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 8,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:47:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list/?type=add&page=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 120,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:47:40+08:00 ] 127.0.0.1 /index.php/Home/Goods/openAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T09:47:49+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_name="qqq" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `ecs_goods` (`goods_name`,`goods_number`,`market_price`,`keywords`) VALUES ('qqq','0','qqq','qqq') [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T09:48:00+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:54:31+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list/?type=add&page=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 8,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:54:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list/?type=add&page=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 120,8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:54:40+08:00 ] 127.0.0.1 /index.php/Home/Goods/openAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T09:54:48+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_name="aaa" ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: INSERT INTO `ecs_goods` (`goods_name`,`goods_number`,`market_price`,`keywords`) VALUES ('aaa','0','aaa','aaa') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T09:54:50+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-12T09:54:57+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list/?type=add&page=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 8,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:55:03+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list/?type=add&page=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 120,8   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:59:14+08:00 ] 127.0.0.1 /index.php/Home/Goods/openAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:59:20+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_name="zz" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `ecs_goods` (`goods_name`,`goods_number`,`market_price`,`keywords`) VALUES ('zz','0','zz','zz') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:59:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:59:26+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list/?type=add&page=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 8,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:59:31+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list/?type=add&page=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 120,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T09:59:34+08:00 ] 127.0.0.1 /index.php/Home/Goods/openEdit/?goods_id=22232
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="22232" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T09:59:58+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="22232" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ecs_goods` SET `goods_id`='22232',`goods_name`='zz',`goods_number`='33',`market_price`='33',`keywords`='zz' WHERE ( goods_id="22232" ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:00:00+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-12T10:06:05+08:00 ] 127.0.0.1 /index.php/Home/Address/address_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_user_address` [ RunTime:0.0770s ]
+SQL: SELECT * FROM `ecs_user_address`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_user_address` ORDER BY address_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:06:08+08:00 ] 127.0.0.1 /index.php/Home/Address/openAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:06:14+08:00 ] 127.0.0.1 /index.php/Home/Address/addressAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_user_address` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ecs_user_address` WHERE ( address_name="qq" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecs_user_address` (`address_name`,`city`,`address`,`tel`) VALUES ('qq','0','qq','qq') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:06:17+08:00 ] 127.0.0.1 /index.php/Home/Address/address_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_user_address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_user_address`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_user_address` ORDER BY address_id LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:06:20+08:00 ] 127.0.0.1 /index.php/Home/Address/openEdit/?address_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_user_address` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ecs_user_address` WHERE ( address_id="5" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:06:28+08:00 ] 127.0.0.1 /index.php/Home/Address/addressEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ecs_user_address` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_user_address` WHERE ( address_id="5" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ecs_user_address` SET `address_id`='5',`address_name`='qq',`city`='0',`address`='qq',`tel`='qq' WHERE ( address_id="5" ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:06:38+08:00 ] 127.0.0.1 /index.php/Home/Address/addressEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_user_address` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_user_address` WHERE ( address_id="5" ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `ecs_user_address` SET `address_id`='5',`address_name`='qq',`city`='0',`address`='qq',`tel`='qq' WHERE ( address_id="5" ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T10:20:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: image D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:22:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: image D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T10:27:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: image D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T10:48:30+08:00 ] 127.0.0.1 /index.php/Home/Index/do_login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="root" ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T10:48:56+08:00 ] 127.0.0.1 /index.php/Home/Index/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Cart
+
+[ 2016-08-12T10:49:25+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-12T14:04:56+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0950s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:16:14+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T14:16:15+08:00 ] 127.0.0.1 /index.php/Home/Cart/openAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T14:16:22+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="11" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecs_cart` (`user_id`,`goods_id`,`goods_name`,`goods_number`) VALUES ('11','11','11','11') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:16:24+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:16:28+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/?goods_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: rec_id D:\phpStudy\WWW\learn\tp1625\Application\Home\Controller\CartController.class.php 第 109 行.
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+ERR: 模板不存在:./Application/Home/View/Cart/goods_edit.html
+
+[ 2016-08-12T14:17:21+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/?goods_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: rec_id D:\phpStudy\WWW\learn\tp1625\Application\Home\Controller\CartController.class.php 第 109 行.
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:17:36+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: rec_id D:\phpStudy\WWW\learn\tp1625\Application\Home\Controller\CartController.class.php 第 146 行.
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="22" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ecs_cart` SET `goods_id`='22',`user_id`='22',`goods_name`='22',`goods_number`='22' WHERE ( rec_id="" ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T14:18:39+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: rec_id D:\phpStudy\WWW\learn\tp1625\Application\Home\Controller\CartController.class.php 第 109 行.
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:18:45+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:18:49+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/?goods_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: rec_id D:\phpStudy\WWW\learn\tp1625\Application\Home\Controller\CartController.class.php 第 109 行.
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:20:12+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:20:15+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/?goods_id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: rec_id D:\phpStudy\WWW\learn\tp1625\Application\Home\Controller\CartController.class.php 第 109 行.
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T14:23:19+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:23:20+08:00 ] 127.0.0.1 /index.php/Home/Cart/openAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T14:23:29+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="112" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecs_cart` (`user_id`,`goods_id`,`goods_name`,`goods_number`) VALUES ('112','11','11','11') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:23:31+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:23:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/?rec_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-12T14:24:52+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: cec_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:24:53+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/?rec_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:25:44+08:00 ] 127.0.0.1 /index.php/Home/Cart/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:index
+
+[ 2016-08-12T14:25:49+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T14:25:52+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/?rec_id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="38" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:25:57+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="38" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `ecs_cart` SET `rec_id`='38',`user_id`='11',`goods_id`='11',`goods_name`='11',`goods_number`='22' WHERE ( rec_id="38" ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:25:59+08:00 ] 127.0.0.1 /index.php/Home/Goods/goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` ORDER BY goods_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:26:18+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:26:34+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:26:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/openAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T14:26:42+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="22" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecs_cart` (`user_id`,`goods_id`,`goods_name`,`goods_number`) VALUES ('22','22','22','22') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:26:44+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:26:47+08:00 ] 127.0.0.1 /index.php/Home/Cart/openEdit/?rec_id=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="40" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:26:50+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( rec_id="40" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `ecs_cart` SET `rec_id`='40',`user_id`='22',`goods_id`='22',`goods_name`='22',`goods_number`='11' WHERE ( rec_id="40" ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:26:53+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T14:26:57+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0120s ]
+SQL: DELETE FROM `ecs_goods` WHERE ( goods_id="40" ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T14:27:02+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0250s ]
+SQL: DELETE FROM `ecs_goods` WHERE ( goods_id="40" ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:27:38+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:27:42+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0120s ]
+SQL: DELETE FROM `ecs_goods` WHERE ( goods_id="40" ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-12T14:27:47+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodsDel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0130s ]
+SQL: DELETE FROM `ecs_goods` WHERE ( goods_id="40" ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T14:27:49+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:28:06+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:28:10+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:28:14+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T14:28:16+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+NOTIC: [8] Undefined index: rec	_id D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Home\d087df7d8d4478b6007ee2dec7bd8a93.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:28:41+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:28:44+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:28:54+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:30:38+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:30:42+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:30:51+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:31:28+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:31:31+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:31:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T14:32:19+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T14:32:22+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-12T14:32:26+08:00 ] 127.0.0.1 /index.php/Home/Cart/cartDel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0120s ]
+SQL: DELETE FROM `ecs_cart` WHERE ( rec_id="40" ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-12T14:32:28+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-12T14:32:31+08:00 ] 127.0.0.1 /index.php/Home/Cart/cart_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ecs_cart`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_cart` ORDER BY rec_id LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

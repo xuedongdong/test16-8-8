@@ -35,6 +35,24 @@
       <?php echo ($msg); ?>
       </div>
   		</div>
+      <!-- Button to trigger modal -->
+<a href="#myModal" role="button" class="btn" data-toggle="modal">查看演示案例</a>
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+
   	</div>
   	<input type="submit" class="btn btn-default" value="登陆">
     <a href="/index.php/Home/Index/open_register/" class="btn btn-default" >注册</a>
