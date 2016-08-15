@@ -152,6 +152,7 @@ class CartController extends Controller {
 			//echo "string"; 
 			$cart = M('cart');
 			$result = $cart-> where('rec_id='.'"'.$id['rec_id'].'"') -> save($_POST); 
+			//var_dump($result);exit;
 			if ($result) {
 				//设置成功后跳转页面的地址，默认的返回页面是$_SERVER['HTTP_REFERER']    
 				$this->success('修改成功', '/index.php/Home/Cart/cart_list');

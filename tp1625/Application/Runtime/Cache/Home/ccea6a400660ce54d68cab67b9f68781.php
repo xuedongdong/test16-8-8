@@ -1,90 +1,146 @@
-<?php if (!defined('THINK_PATH')) exit();?><html>
-	<head>
-		<meta charset="utf-8">
-		<title>login</title>
-		<!-- 新 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="/Public/bootstrap/css/bootstrap.min.css">
-
-<!-- 可选的Bootstrap主题文件（一般不用引入） -->
-<link rel="stylesheet" href="/Public/bootstrap/css/bootstrap-theme.min.css">
-
-<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="/Public/bootstrap/js/jquery-1.11.0.min.js"></script>
-
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="/Public/bootstrap/js/bootstrap.min.js"></script>
-	</head>
-	<body style="width:100%;">
-		
-	<form action="/index.php/Home/Index/do_login/" method="post" style="width:50%;margin:auto;border:1px;">
-  	<div class="form-group">
-    	<label for="exampleInputEmail1">用户</label>
-    	<input type="text" class="form-control" name="user_name" id="user_name" placeholder="User_name">
-  	</div>
-  	<div class="form-group">
-    	<label for="exampleInputPassword1">Password</label>
-    		<input type="password" class="form-control" name="password" id="password" placeholder="Password">
-  		<div class="checkbox">
-    	<label>
-     	 <input type="checkbox"> Check me out
-    	</label>
-      <div class="formControls col-xs-8 col-xs-offset-3">
-          <input class="input-text size-L" type="text" placeholder="验证码" onblur="if(this.value==''){this.value='验证码:'}" onclick="if(this.value=='验证码:'){this.value='';}" name="verify" value="验证码:" style="width:150px;"><a id="kanbuq" href="/index.php/Home/Index/index/"><?php echo ($image); ?>看不清，换一张</a>
-      </div>
-      <div class="form-group">
-      <?php echo ($msg); ?>
-      </div>
-  		</div>
-      <!-- Button to trigger modal -->
-<a href="#myModal" role="button" class="btn" data-toggle="modal">查看演示案例</a>
- 
-<!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
-    <button class="btn btn-primary">Save changes</button>
-  </div>
-</div>
-
-  	</div>
-  	<input type="submit" class="btn btn-default" value="登陆">
-    <a href="/index.php/Home/Index/open_register/" class="btn btn-default" >注册</a>
-    <!-- <input type="button" class="btn btn-default" value="注册" onclick="open_register()"> -->
-	</form>
-
-  <script type="text/javascript">
-  /*$('#register_button').click(function(){
-    $.ajax({
-      type : 'post',
-      url : '/index.php/Home/Index/doRegister/',
-      data : {
-        user_name:$('#register_username').val(),
-        password:$('#register_password').val(),
-        repassword:$('#register_repassword').val()
-      },
-      success:function(res){
-        if (res == '1') {
-          $('$register_label').html('用户名不能为空')；
-        }else if(res == '2') {
-          $('$register_label').html('密码不能为空')；
-        }else if(res == '3') {
-          $('$register_label').html('两次密码不一样')；
-        }else if(res == '4') {
-          $('$register_label').html('用户名存在')；
-        }else{
-          $('$register_label').html('成功')；
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>系统后台登录</title>
+    <link rel="stylesheet" href="/Public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Public/bootstrap/css/bootstrap-theme.min.css">
+    <script src="/Public/bootstrap/js/jquery-1.11.0.min.js"></script>
+    <script src="/Public/bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            width: 100%;
+            background: url("/Public/images/bg.jpg") no-repeat;
+            background-size: 100%;
         }
-      }
+        .col-center-block {
+            float: none;
+            margin: 0 auto;
+            border: 1px solid blue;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 200px;
+        }
+        .footer {
+            height: 46px;
+            line-height: 46px;
+            color: #fff;
+            font-size: 12px;
+            font-family: tahoma, Arial;
+            background-color: #426374;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            border-top: 1px solid #e8e8e8;
+            padding: 15px 0;
+            text-align: center;
+        }
+        #open_reg {
+            position: relative;
+            top: 50%;
+            right: -80px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div class="col-xs-6 col-md-4 col-center-block">
+    <h2 style="text-align: center">系统后台登录</h2>
+    <hr/>
+    <form action="/index.php/Home/Index/do_login" method="post">
+        <div class="form-group">
+            <label for="input_username">用户名</label>
+            <input type="text" class="form-control" id="input_username" name="user_name" placeholder="用户名">
+        </div>
+        <div class="form-group">
+            <label for="input_password">密码</label>
+            <input type="password" class="form-control" id="input_password" name="password" placeholder="密码">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">登录</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="reset" class="btn btn-default">重置</button>
+            &nbsp;&nbsp;
+            <a id="open_reg" href="" data-toggle="modal" data-target="#myModal">点击这里,立即注册</a>
+        </div>
+    </form>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">用户注册</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="user_name">用户名</label>
+                    <input type="text" class="form-control" id="user_name" name="user_name" placeholder="请输入用户名">
+                </div>
+                <div class="form-group">
+                    <label for="password">密&nbsp;码</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="请输入密码">
+                </div>
+                <div class="form-group">
+                    <label for="re_password">重复密码</label>
+                    <input type="password" class="form-control" id="re_password" name="re_password" placeholder="请重复密码">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <label style="color: red;position: absolute;left: 10px;" id="tip"></label>
+                <button type="button" id="modal_submit" class="btn btn-primary">提交</button>
+                <button type="button" id="modal_reset" class="btn btn-default">重置</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">Copyright&nbsp;tp1625.com&nbsp;&nbsp;&nbsp;&nbsp;by admin</div>
+<script>
+    $(document).ready(function(){
+        $('#modal_reset').click(function(){
+            $('#user_name').val('');
+            $('#password').val('');
+            $('#re_password').val('');
+            $('#reg_tip').html('');
+        });
+        $('#modal_submit').click(function(){
+            if($('#user_name').val().length==0){
+                $('#reg_tip').html('用户名必填！');
+                return false;
+            }
+            if($('#password').val().length==0){
+                $('#reg_tip').html('密码必填！');
+                return false;
+            }
+            if($('#re_password').val().length==0){
+                $('#reg_tip').html('请重输密码！');
+                return false;
+            }
+            if($('#password').val()!==$('#re_password').val()){
+                $('#reg_tip').html('两次输入的密码不一样！');
+                return false;
+            }
+            $.ajax({
+                url: "/index.php/Home/Index/doRegister",
+                type: 'post',
+                data: {user_name: $('#user_name').val(), password: $('#password').val()},
+                dataType: 'JSON',
+                success: function (res) {
+                    if (res.info == 'success') {
+                        $('#reg_tip').html('恭喜您注册成功，请登录！');
+                    }
+                },
+                error: function () {
+                    alert(arguments[1]);
+                }
+            });
+        });
     });
-  })*/
-  </script>
-
-	</body>
+</script>
+</body>
 </html>
