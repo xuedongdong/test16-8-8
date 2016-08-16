@@ -1,12 +1,12 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html class="ui-page-login">
 
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title><?php echo ($title); ?></title>
-		<link href="/Public/mui/css/mui.min.css" rel="stylesheet" />
-		<link href="/Public/mui/css/style.css" rel="stylesheet" />
+		<title>{$title}</title>
+		<link href="__PUBLIC__/mui/css/mui.min.css" rel="stylesheet" />
+		<link href="__PUBLIC__/mui/css/style.css" rel="stylesheet" />
 		<style>
 			.area {
 				margin: 20px auto 0px auto;
@@ -93,7 +93,7 @@
 			<h1 class="mui-title">登录</h1>
 		</header>
 		<div class="mui-content">
-			<form id='login-form' method="post" action="<?php echo U('Index/doLogin');?>"  class="mui-input-group">
+			<form id='login-form' method="post" action="{:U('Index/doLogin')}"  class="mui-input-group">
 				<div class="mui-input-row">
 					<label>账号</label>
 					<input id='user_name' name="user_name" type="text" class="mui-input-clear mui-input" placeholder="请输入账号">
@@ -112,10 +112,10 @@
 						</div>
 					</li>
 				</ul>
-			<h3 style="color:red;"><?php echo ($msg); ?></h3>
+			<h3 style="color:red;">{$msg}</h3>
 			<div class="mui-content-padded">
 				<button id='login' class="mui-btn mui-btn-block mui-btn-primary">登录</button>
-				<div class="link-area"><a href="<?php echo U('Index/Register');?>">注册账号</a> <span class="spliter">|</span> <a id='forgetPassword'>忘记密码</a>
+				<div class="link-area"><a href="{:U('Index/Register')}">注册账号</a> <span class="spliter">|</span> <a id='forgetPassword'>忘记密码</a>
 				</div>
 				
 			</div>
@@ -125,19 +125,19 @@
 		</div>
 		<nav class="mui-bar mui-bar-tab">
 			<div>
-				<a class="mui-tab-item " id="btn1" href="<?php echo U('Goods/index');?>">			
+				<a class="mui-tab-item " id="btn1" href="{:U('Goods/index')}">			
 					<span class="mui-icon mui-icon-home"></span>
 					<span class="mui-tab-label">首页</span>	
 				</a>
-				<a class="mui-tab-item " href="<?php echo U('Goods/goods_category');?>" >
+				<a class="mui-tab-item " href="{:U('Goods/goods_category')}" >
 					<span class="mui-icon mui-icon-bars"></span>
 					<span class="mui-tab-label">商品分类</span>
 				</a>
-				<a class="mui-tab-item" href="<?php echo U('Goods/cart');?>">
-					<span class="mui-icon mui-icon-download"><?php echo ($cart_mount); ?></span>
+				<a class="mui-tab-item" href="{:U('Goods/cart')}">
+					<span class="mui-icon mui-icon-download">{$cart_mount}</span>
 					<span class="mui-tab-label">购物车</span>
 				</a>
-				<a class="mui-active mui-tab-item" href="<?php echo U('Index/user_center');?>">
+				<a class="mui-active mui-tab-item" href="{:U('Index/user_center')}">
 					<span class="mui-icon mui-icon-contact"></span>	
 					<span class="mui-tab-label">用户中心</span>
 				</a>
@@ -147,7 +147,6 @@
 		<script src="js/mui.enterfocus.js"></script>
 		<script src="js/app.js"></script>
 		<script>
-			mui('body').on('tap','a',function(){document.location.href=this.href;});
 			(function($, doc) {
 				$.init({
 					statusBarBackground: '#f7f7f7'

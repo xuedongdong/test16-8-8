@@ -34,18 +34,8 @@
 	<body>
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-			<h1 class="mui-title">mui—商城首页</h1>
+			<h1 class="mui-title">mui—商品明细</h1>
 		</header>
-		<div class="mui-content">
-			<ul class="mui-table-view mui-table-view-chevron">
-				<li id="switch" class="mui-table-view-cell">
-					示例
-					<div class="mui-switch">
-						<div class="mui-switch-handle"></div>
-					</div>
-				</li>
-			</ul>
-		</div>
 		<div id="slider" class="mui-slider" >
 			<div class="mui-slider-group mui-slider-loop">
 				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
@@ -92,35 +82,67 @@
 				<div class="mui-indicator"></div>
 			</div>
 		</div>
-		<div class="mui-content" style="background-color:#fff">
-		   
-		    <ul class="mui-table-view mui-grid-view">
-		     	<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <a href="<?php echo U('Goods/goods_detail');?>/?goods_id=<?php echo ($vo["goods_id"]); ?>">
-		                <img class="mui-media-object" src="/Public/img/<?php echo ($vo["goods_img"]); ?>">
-		                <div class="mui-media-body"><?php echo ($vo["goods_name"]); ?></div>
-		                <div class="mui-media-body"><?php echo ($vo["shop_price"]); ?></div>
-		            </a>
-		        </li><?php endforeach; endif; else: echo "" ;endif; ?>
-		    </ul>
-		    <ul class="mui-pager">
-		    	<li style="float:left;margin-left:40px;margin-bottom:40px;">
-		    		<a href="/index.php/Admin/Index/index?type=minus&page=<?php echo ($page); ?>">
-		    			上一页
-		    		</a>
-		    	</li>
-		    	<li style="float:right;margin-right:40px;">
-		    		<a href="/index.php/Admin/Index/index?type=add&page=<?php echo ($page); ?>">
-		    			下一页
-		    		</a>
-		    	</li>
-		    	<span><?php echo ($page); ?>/<?php echo ($pageMax); ?></span>
-		    </ul>    
-		    
+
+		<div class="mui-card" style="margin:0px 0px 0px 0px;">
+				<img src="/Public/img/<?php echo ($data["goods_img"]); ?>" alt="" style="width:50%;float:left;">
+				<div class="mui-card-content" style="width:50%;float:right;">
+					<div class="mui-card-content-inner">
+						<h4><?php echo ($data["keywords"]); ?></h4>
+						<s style="color:red;">原价：￥<?php echo ($data["market_price"]); ?></s>
+						<h5 style="color:red;">惊爆价：￥<?php echo ($data["shop_price"]); ?></h5>
+					</div>
+					<div class="mui-numbox" data-numbox-min="1" data-numbox-max="<?php echo ($data["goods_number"]); ?>">
+						<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+						<input id="test" class="mui-input-numbox" type="number" value="5">
+						<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+					</div>
+				</div>
+
+				<div style="padding: 10px 10px;">
+					<div id="segmentedControl" class="mui-segmented-control">
+						<a class="mui-control-item mui-active" href="#item1">
+							商品简介
+						</a>
+						<a class="mui-control-item" href="#item2">
+							商品摘要
+						</a>
+						<a class="mui-control-item" href="#item3">
+							商品情况
+						</a>
+					</div>
+				</div>
+				<div>
+				<div id="item1" class="mui-control-content mui-active">
+					<!-- <div id="scroll" class="mui-scroll-wrapper" data-scroll="1">
+						<div class="mui-scroll" style="transform: translate3d(0px, 0px, 0px) translateZ(0px);">
+							<?php echo ($data["goods_desc"]); ?>
+						</div>
+					</div> -->
+					<?php echo ($data["goods_desc"]); ?>
+				</div>
+				<div id="item2" class="mui-control-content">
+					<?php echo ($data["goods_brief"]); ?>
+				</div>
+				<div id="item3" class="mui-control-content">
+					<ul>
+						<li>
+							编号<?php echo ($data["goods_sn"]); ?>		
+						</li>
+						<li>
+							重量：<?php echo ($data["goods_weight"]); ?>		
+						</li>
+						<li>
+							数量：<?php echo ($data["goods_number"]); ?>		
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
+		<button type="button"  style="margin:0px 0px 40px 0px;" class="mui-btn mui-btn-danger mui-btn-block">加入购物车</button>
+
 		<nav class="mui-bar mui-bar-tab">
 			<div>
-				<a class="mui-active mui-tab-item " id="btn1" href="#">
+				<a class="mui-active mui-tab-item " id="btn1" href="<?php echo U('Goods/index');?>">
 					<span class="mui-icon mui-icon-home"></span>
 					<span class="mui-tab-label">首页</span>	
 				</a>
@@ -140,22 +162,12 @@
 		</nav>
 		<script src="/Public/mui/js/mui.min.js"></script>
 		<script type="text/javascript" charset="utf-8">
-			mui('body').on('tap','a',function(){document.location.href=this.href;});
-			mui.init({
-				swipeBack:true //启用右滑关闭功能
-			});
-			var slider = mui("#slider");
-			document.getElementById("switch").addEventListener('toggle', function(e) {
-				if (e.detail.isActive) {
-					slider.slider({
+			window.onload = function(){
+				var slider = mui("#slider");
+				slider.slider({
 						interval: 5000
 					});
-				} else {
-					slider.slider({
-						interval: 0
-					});
-				}
-			});
+			} 
 		</script>
 	</body>
 

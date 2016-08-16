@@ -44,12 +44,12 @@ class IndexController extends Controller {
     	$this->display('main');
     }
 
-    /*public function index(){
+    public function Login(){
         //$this->show('123');
         $this->assign('msg','');
         $this->assign('title','mui商城-首页');
     	$this->display('login');
-    }*/
+    }
 
     public function doLogin(){
     	//var_dump($_POST);
@@ -72,7 +72,9 @@ class IndexController extends Controller {
     		$salt = $data['salt'];
     		$password = md5(md5($_POST['password']).$salt);
     		if ($data['password']==$password) {
-    			echo "登陆成功";;
+                session('user_name',$_POST['user_name']);
+    			//echo "登陆成功";
+                $this->index();
     		}else{
 	    		$this->assign('msg','登陆失败');
 	    		$this->assign('title','mui商城-首页');
@@ -144,6 +146,19 @@ class IndexController extends Controller {
     		$this->display('register');
     		exit;
     	}
+    }
 
+    public function user_center(){
+        $user_name = session('user_name');
+        if (!$user_name) {
+            $user_name = '访客';
+        }
+        $this->assign('user_name',$user_name);
+        $this->display('userCenter');
+    }
+
+    public function logout(){
+        session('user_name', null);
+        $this->user_center();
     }
 }
