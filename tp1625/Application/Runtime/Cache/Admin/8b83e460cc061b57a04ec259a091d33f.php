@@ -84,6 +84,8 @@
 		</div>
 
 		<div class="mui-card" style="margin:0px 0px 0px 0px;">
+			<form method="post" action="<?php echo U('Goods/Addgoods');?>">
+
 				<img src="/Public/img/<?php echo ($data["goods_img"]); ?>" alt="" style="width:50%;float:left;">
 				<div class="mui-card-content" style="width:50%;float:right;">
 					<div class="mui-card-content-inner">
@@ -93,10 +95,12 @@
 					</div>
 					<div class="mui-numbox" data-numbox-min="1" data-numbox-max="<?php echo ($data["goods_number"]); ?>">
 						<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-						<input id="test" class="mui-input-numbox" type="number" value="5">
+						<input id="test" class="mui-input-numbox" type="number" name="number" value="<?php echo ($number); ?>">
 						<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
 					</div>
 				</div>
+				<input id="goods_id" type="hidden" name="goods_id" value="<?php echo ($data["goods_id"]); ?>">
+				<!-- <input id="user_name" type="hidden" name="user_name" value="<?php echo ($user_name); ?>"> -->
 
 				<div style="padding: 10px 10px;">
 					<div id="segmentedControl" class="mui-segmented-control">
@@ -136,9 +140,12 @@
 						</li>
 					</ul>
 				</div>
+				<div>
+					<button type="submit"  style="margin:0px 0px 40px 0px;" class="mui-btn mui-btn-danger mui-btn-block">加入购物车</button>
+				</div>
 			</div>
+			</form>
 		</div>
-		<button type="button"  style="margin:0px 0px 40px 0px;" class="mui-btn mui-btn-danger mui-btn-block">加入购物车</button>
 
 		<nav class="mui-bar mui-bar-tab">
 			<div>
@@ -162,6 +169,7 @@
 		</nav>
 		<script src="/Public/mui/js/mui.min.js"></script>
 		<script type="text/javascript" charset="utf-8">
+			mui('body').on('tap','a',function(){document.location.href=this.href;});
 			window.onload = function(){
 				var slider = mui("#slider");
 				slider.slider({
