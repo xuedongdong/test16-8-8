@@ -15,13 +15,14 @@ class GoodsController extends Controller {
 		session('number',null);
 		$this ->assign('number',$number);
 		$this->assign('data',$data);
+		$this -> assign('title', 'mui商城-商品明细');
 		$this->display('goods_detail');
 	}	
 
 	public function Addgoods(){
 		//var_dump($_POST);exit;
 		$user_name = session('user_name');
-		var_dump($user_name);var_dump($_POST);exit;
+		//var_dump($user_name);var_dump($_POST);exit;
 		if(!$user_name) {
 			session('goods_id',$_POST['goods_id']);
 			session('number',$_POST['number']);
@@ -48,12 +49,13 @@ class GoodsController extends Controller {
 			$cartdata['goods_number'] -= -$_POST['goods_number'];
 			$update['goods_number'] = $cartdata['goods_number'];
 			$cart->where('goods_id="'.$_POST['goods_id'].'" AND user_id="'.$_POST['user_id'].'"')->save($update);
-			echo "修改成功";
+			//echo "修改成功";
+			$this->redirect('cart');
 		}else{
 			$result = $cart->add($_POST);
 			if($result){
 				//echo "添加成功";
-				$this->cart();
+				$this->redirect('cart');
 			}else{
 				echo "添加失败";
 			}
@@ -111,9 +113,77 @@ class GoodsController extends Controller {
 		
 	public function cart(){
 		//echo "加入购物车";
+		$user_name = session('user_name');
+		if (!$user_name) {
+			$this -> redirect('Index/Login');
+		}
+		$user = M('users');
+		$userdata = $user->where('user_name="'.$user_name.'"')->find();
+		$user_id = $userdata['user_id'];
+
+		$goods = M('goods');
+		$cart = M('cart');
+		$cartdata = $cart->where('user_id="'.$user_id.'"')->select();
+		foreach ($cartdata as &$value) {
+			$goodsdata = $goods->where('goods_id="'.$value['goods_id'].'"')->find();
+			$value['goods_img'] = $goodsdata['goods_img'];
+			$value['total'] = $value['goods_number'] * $value['goods_price'];
+		}
+		//echo "<pre>";
+		//var_dump($cartdata);exit;
+		$this -> assign('data', $cartdata);
+		$this -> assign('title', 'mui商城-购物车');
 		$this -> display('cart');
 	}
 
+	public function changeGoods(){
+		//var_dump($_POST);exit;
+		$user_name = session('user_name');
+		$user = M('users');
+		$userdata = $user->where('user_name="'.$user_name.'"')->find();
+		$user_id = $userdata['user_id'];
+
+		$cart = M('cart');
+		//$cartdata = $cart->where('goods_id="'.$_POST['goods_id'].'" AND user_id="'.$user_id.'"')->find();
+		
+		$data['goods_number'] = $_POST['goods_number'];
+		$result = $cart->where('goods_id="'.$_POST['goods_id'].'" AND user_id="'.$user_id.'"')->save($data);
+		
+/*		if ($result) {
+			$res = $data['goods_number'] * $cartdata['goods_price'];
+			echo $res;
+		}else{
+			echo err;
+		}*/
+	}
+
+	public function delCart(){
+		$user_name = session('user_name');
+		$user = M('users');
+		$userdata = $user->where('user_name="'.$user_name.'"')->find();
+		$user_id = $userdata['user_id'];
+
+		$cart = M('cart');
+		$result = $cart->where('goods_id="'.$_POST['goods_id'].'" AND user_id="'.$user_id.'"')->delete();
+		if($result){
+			echo 1;
+		}else{
+			echo 2;
+		}
+	}
+
+	public function sublist(){
+
+		$payment = M('payment');
+		$paymentdata = $payment->select();
+		//echo "<pre>";
+		//var_dump($paymentdata);exit;
+
+
+		$this->assign('paylist',$paymentdata);
+		$this->assign('title','mui商城-支付');
+		$this->display('sublist');
+	}
 
 }
 ?>

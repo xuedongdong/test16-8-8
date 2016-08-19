@@ -125,7 +125,7 @@
 		</div>
 		<nav class="mui-bar mui-bar-tab">
 			<div>
-				<a class="mui-tab-item " id="btn1" href="<?php echo U('Goods/index');?>">			
+				<a class="mui-tab-item " id="btn1" href="<?php echo U('Index/index');?>">			
 					<span class="mui-icon mui-icon-home"></span>
 					<span class="mui-tab-label">首页</span>	
 				</a>

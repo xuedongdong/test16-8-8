@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head><!DOCTYPE html>
-<html>
 
 	<head>
 		<meta charset="utf-8">
@@ -115,41 +111,42 @@
 						</a>
 					</div>
 				</div>
-				<div>
-				<div id="item1" class="mui-control-content mui-active">
-					<!-- <div id="scroll" class="mui-scroll-wrapper" data-scroll="1">
-						<div class="mui-scroll" style="transform: translate3d(0px, 0px, 0px) translateZ(0px);">
-							{$data.goods_desc}
-						</div>
-					</div> -->
-					{$data.goods_desc}
+				<div style="margin-bottom:150px;">
+					<div id="item1" class="mui-control-content mui-active">
+						<!-- <div id="scroll" class="mui-scroll-wrapper" data-scroll="1">
+							<div class="mui-scroll" style="transform: translate3d(0px, 0px, 0px) translateZ(0px);">
+								{$data.goods_desc}
+							</div>
+						</div> -->
+						{$data.goods_desc}
+					</div>
+					<div id="item2" class="mui-control-content">
+						{$data.goods_brief}
+					</div>
+					<div id="item3" class="mui-control-content">
+						<ul>
+							<li>
+								编号{$data.goods_sn}		
+							</li>
+							<li>
+								重量：{$data.goods_weight}		
+							</li>
+							<li>
+								数量：{$data.goods_number}		
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div id="item2" class="mui-control-content">
-					{$data.goods_brief}
-				</div>
-				<div id="item3" class="mui-control-content">
-					<ul>
-						<li>
-							编号{$data.goods_sn}		
-						</li>
-						<li>
-							重量：{$data.goods_weight}		
-						</li>
-						<li>
-							数量：{$data.goods_number}		
-						</li>
-					</ul>
-				</div>
-				<div>
-					<button type="submit"  style="margin:0px 0px 40px 0px;" class="mui-btn mui-btn-danger mui-btn-block">加入购物车</button>
-				</div>
+			</div>
+			<div>
+				<button type="submit" style="position:fixed;bottom:40px;" class="mui-btn mui-btn-danger mui-btn-block">加入购物车</button>
 			</div>
 			</form>
 		</div>
 
 		<nav class="mui-bar mui-bar-tab">
 			<div>
-				<a class="mui-active mui-tab-item " id="btn1" href="{:U('Goods/index')}">
+				<a class="mui-active mui-tab-item " id="btn1" href="{:U('Index/index')}">
 					<span class="mui-icon mui-icon-home"></span>
 					<span class="mui-tab-label">首页</span>	
 				</a>

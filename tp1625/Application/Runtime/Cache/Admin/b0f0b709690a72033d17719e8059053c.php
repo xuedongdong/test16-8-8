@@ -120,7 +120,7 @@
 		</div>
 		<nav class="mui-bar mui-bar-tab">
 			<div>
-				<a class="mui-active mui-tab-item " id="btn1" href="#">
+				<a class="mui-active mui-tab-item " id="btn1" href="<?php echo U('Index/index');?>">
 					<span class="mui-icon mui-icon-home"></span>
 					<span class="mui-tab-label">首页</span>	
 				</a>
