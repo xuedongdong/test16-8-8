@@ -1,0 +1,2296 @@
+[ 2016-08-20T10:15:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0830s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:17:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/user_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:17:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ecs_category` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `ecs_category`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\1d921fdd591be1f0cfdf650d9e819cd2.php 第 6 行.
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\1d921fdd591be1f0cfdf650d9e819cd2.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\041185b974292283d2f6098acc3220ec.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/mui.enterfocus.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2016-08-20T10:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:js
+
+[ 2016-08-20T10:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/mui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:js
+
+[ 2016-08-20T10:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/mui.enterfocus.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2016-08-20T10:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:js
+
+[ 2016-08-20T10:17:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:17:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.1300s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="4" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b3f33afb9594f840750e480026bc87d9.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:17:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/sublist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `ecs_payment`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\244ba1b4933ed756ef904fb36f1f38c5.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:17:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.1510s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:18:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:23:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:24:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:24:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:30:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:30:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:30:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:31:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:32:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:33:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:33:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:35:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:35:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:36:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:36:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:38:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:38:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/sublist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\244ba1b4933ed756ef904fb36f1f38c5.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:38:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 1 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 199 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: 2 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 202 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="3" ) LIMIT 1   [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: pay_id D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 206 行.
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:39:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: 1 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 199 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="2" ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 2 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 202 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="3" ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: pay_id D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 206 行.
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:39:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: 1 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 199 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="2" ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 2 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 202 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="3" ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: pay_id D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 206 行.
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:40:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 1 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 199 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="2" ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 2 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 202 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="3" ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: pay_id D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 206 行.
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:41:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 1 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 199 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="2" ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 2 D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 202 行.
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="" AND region_type="3" ) LIMIT 1   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: pay_id D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 206 行.
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:45:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:45:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+
+[ 2016-08-20T10:51:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/sublist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\244ba1b4933ed756ef904fb36f1f38c5.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:51:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="天津" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="天津" AND region_type="2" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="和平区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 214 行.
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0080s ]
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`tel`,`mobile`,`money_paid`,`order_sn`) VALUES ('11','2','27','343','2062','银行汇款/转帐','38','1@123.com',NULL,NULL,'2227','2016082039085')
+ERR: 1048:Column 'tel' cannot be null
+ [ SQL语句 ] : INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`tel`,`mobile`,`money_paid`,`order_sn`) VALUES ('11','2','27','343','2062','银行汇款/转帐','38','1@123.com',NULL,NULL,'2227','2016082039085')
+
+[ 2016-08-20T10:52:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mobile D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0070s ]
+ERR: 1048:Column 'mobile' cannot be null
+ [ SQL语句 ] : INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`mobile`,`money_paid`,`order_sn`) VALUES ('11','2','2','52','500','银行汇款/转帐','38','1@123.com',NULL,'2227','2016082039126')
+ERR: 1048:Column 'mobile' cannot be null
+ [ SQL语句 ] : INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`mobile`,`money_paid`,`order_sn`) VALUES ('11','2','2','52','500','银行汇款/转帐','38','1@123.com',NULL,'2227','2016082039126')
+
+[ 2016-08-20T10:52:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0080s ]
+SQL: INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`money_paid`,`order_sn`) VALUES ('11','2','2','52','500','银行汇款/转帐','38','1@123.com','2227','2016082039145') [ RunTime:0.0010s ]
+
+[ 2016-08-20T10:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0060s ]
+SQL: INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`money_paid`,`order_sn`) VALUES ('11','2','2','52','500','银行汇款/转帐','38','1@123.com','2227','2016082039208') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:56:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0080s ]
+SQL: INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`money_paid`,`order_sn`) VALUES ('11','2','2','52','500','银行汇款/转帐','38','1@123.com','2227','2016082039393') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T10:58:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:02:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="天津" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="天津" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="和平区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0060s ]
+SQL: INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`money_paid`,`order_sn`) VALUES ('11','2','27','343','2062','银行汇款/转帐','38','1@123.com','2227','2016082039728') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:02:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:03:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="河北" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="石家庄" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="长安区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0080s ]
+SQL: INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`money_paid`,`order_sn`) VALUES ('11','2','10','138','1078','银行汇款/转帐','38','1@123.com','2227','2016082039818') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:03:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:04:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0090s ]
+SQL: INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`money_paid`,`order_sn`) VALUES ('11','2','2','52','500','银行汇款/转帐','38','1@123.com','2227','2016082039854') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-20T11:04:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:04:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Index
+
+[ 2016-08-20T11:20:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:20:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Index
+
+[ 2016-08-20T11:23:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:23:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-20T11:26:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-20T11:26:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="4" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b3f33afb9594f840750e480026bc87d9.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:26:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/sublist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\244ba1b4933ed756ef904fb36f1f38c5.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:26:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:26:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-20T11:26:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-20T11:26:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:27:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:28:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-20T11:28:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Index
+
+[ 2016-08-20T11:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:30:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:30:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:30:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:30:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:30:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:31:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:31:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:32:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-20T11:32:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:32:39+08:00 ] 127.0.0.1 //index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:32:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:32:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Index
+
+[ 2016-08-20T11:34:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:34:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:34:27+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:34:36+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:35:25+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:35:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/user_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:36:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.1030s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="4" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b3f33afb9594f840750e480026bc87d9.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:36:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_detail.html/?goods_id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="10" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user_name D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\8b83e460cc061b57a04ec259a091d33f.php 第 99 行.
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\8b83e460cc061b57a04ec259a091d33f.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:36:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/Addgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="10" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( goods_id="10" AND user_id="38" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ecs_cart` (`goods_id`,`goods_number`,`user_id`,`goods_name`,`market_price`,`goods_price`,`goods_sn`) VALUES ('10','3','38','思亲肤90度卷长睫毛膏10g','78.00','49.90','ECS000010') [ RunTime:0.0010s ]
+
+[ 2016-08-20T11:36:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="4" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="10" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b3f33afb9594f840750e480026bc87d9.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-20T11:36:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/sublist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_payment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\244ba1b4933ed756ef904fb36f1f38c5.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:36:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="山西" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="太原" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="小店区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+SQL: SHOW COLUMNS FROM `ecs_order_info` [ RunTime:0.0070s ]
+SQL: INSERT INTO `ecs_order_info` (`address`,`pay_id`,`province`,`city`,`district`,`pay_name`,`user_id`,`email`,`money_paid`,`order_sn`) VALUES ('1','2','23','300','2474','银行汇款/转帐','38','1@123.com','2376','2016082041799') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-20T11:37:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:37:24+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0860s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-08-20T11:40:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="4" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="10" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b3f33afb9594f840750e480026bc87d9.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:40:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/sublist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\244ba1b4933ed756ef904fb36f1f38c5.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:40:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:40:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShowRes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:41:00+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-20T11:41:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="4" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_goods` WHERE ( goods_id="10" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b3f33afb9594f840750e480026bc87d9.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:41:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/sublist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_payment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\244ba1b4933ed756ef904fb36f1f38c5.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:41:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:42:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-20T11:43:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/subShow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function split() is deprecated D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `ecs_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="北京" AND region_type="2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ecs_region` WHERE ( region_name="东城区" AND region_type="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_payment` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_payment` WHERE ( pay_id="3" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_users` WHERE ( user_name="zz" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ecs_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ecs_cart` WHERE ( user_id="38" )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: total D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 220 行.
+NOTIC: [8] Undefined index: money_paid D:\phpStudy\WWW\learn\tp1625\Application\Admin\Controller\GoodsController.class.php 第 225 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\fc578b6105870b979261efaa7b7f23b3.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:43:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/user_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:43:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ecs_goods`  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ecs_goods` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:43:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ecs_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ecs_category`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\1d921fdd591be1f0cfdf650d9e819cd2.php 第 6 行.
+NOTIC: [8] Undefined variable: cart_mount D:\phpStudy\WWW\learn\tp1625\Application\Runtime\Cache\Admin\1d921fdd591be1f0cfdf650d9e819cd2.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-20T11:43:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/sort_goods.html?cat_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:sort_goods
+

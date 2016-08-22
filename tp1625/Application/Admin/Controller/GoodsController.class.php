@@ -185,5 +185,98 @@ class GoodsController extends Controller {
 		$this->display('sublist');
 	}
 
+	public function subShow(){
+		//var_dump($_POST);exit;
+		$data = $_POST;
+		$citystr = $_POST['cityselected'];
+		unset($data['cityselected']);
+		$cityarray = split(' ', $citystr);
+
+		$region = M('region');
+		$regiondata0 = $region->where('region_name="'.$cityarray['0'].'" AND region_type="1"')->find();
+		$data['province'] = $regiondata0['region_id'];
+		
+		$regiondata1 = $region->where('region_name="'.$cityarray['1'].'" AND region_type="2"')->find();
+		$data['city'] = $regiondata1['region_id'];
+		
+		$regiondata2 = $region->where('region_name="'.$cityarray['2'].'" AND region_type="3"')->find();
+		$data['district'] = $regiondata2['region_id'];
+		
+		$payment = M('payment');
+		$paymentdata = $payment->where('pay_id="'.$data['pay_id'].'"')->find();
+		$data['pay_name'] = $paymentdata['pay_name'];
+
+		$user_name = session('user_name');
+		$user = M('users');
+		$userdata = $user->where('user_name="'.$user_name.'"')->find();
+		$data['user_id'] = $userdata['user_id'];
+		$data['email'] = $userdata['email'];
+		//$data['tel'] = $userdata['tel'];
+		//$data['mobile'] = $userdata['mobile'];
+
+		$cart = M('cart');
+		$cartdata = $cart->where('user_id="'.$userdata['user_id'].'"')->select();
+		foreach ($cartdata as &$value) {
+			$value['total'] -=  -($value['goods_number'] * $value['goods_price']);
+		}
+
+		for ($i=0; $i < count($cartdata); $i++) { 
+			$a = $cartdata[$i]['total'];
+			$data['money_paid'] -= -intval($a);
+		}
+
+		$data['order_sn'] =strval(date('Ymd')) . strval(time()-strtotime(date("Y-m-d")));
+
+		//echo "<pre>";
+		//var_dump($data);exit;
+
+		$order_info = M('order_info');
+		$order_info->add($data);
+
+		$datashow = $data;
+		$datashow['user_name'] = $user_name;
+		$datashow['address'] = $citystr.'&nbsp'.$data['address'];
+		$this->assign('title','mui商城-支付');
+		$this->assign('data',$datashow);
+		$this->display('subshow');
+	}
+
+	public function subShowRes(){
+		//var_dump($_POST);exit;
+		if($_POST){
+			redirect('/Admin/Index/index', 3, '支付成功。。。');
+		}
+	}
+
+	public function goods_category(){
+		$category = M('category');
+		$data = $category->select();
+		$list = $this->tree_list($data);
+		//echo "<pre>";
+		//var_dump($list);exit;
+		$this->assign('list',$list);
+		$this->display('category');
+	}	
+
+	public function sort_goods(){
+		var_dump($_GET);
+		//$this->
+	}
+
+
+	private function tree_list(&$list,$parent_id = 0){
+		$tree = array();
+		if (!$list) return false;
+
+		foreach ($list as &$val) {
+			if ($parent_id == $val['parent_id']) {
+				$val['child'] = $this->tree_list($list,$val['cat_id']);
+				$tree[] = $val;
+			}
+		}
+		return $tree;
+	}
+
+
 }
 ?>

@@ -125,7 +125,7 @@ var cityData = [{
 	}]
 }, {
 	value: '130000',
-	text: '河北省',
+	text: '河北',
 	children: [{
 		value: "130100",
 		text: "石家庄"
@@ -162,7 +162,7 @@ var cityData = [{
 	}]
 }, {
 	value: '140000',
-	text: '山西省',
+	text: '山西',
 	children: [{
 		value: "140100",
 		text: "太原"
@@ -239,7 +239,7 @@ var cityData = [{
 	}]
 }, {
 	value: '210000',
-	text: '辽宁省',
+	text: '辽宁',
 	children: [{
 		value: "210100",
 		text: "沈阳"
@@ -285,7 +285,7 @@ var cityData = [{
 	}]
 }, {
 	value: '220000',
-	text: '吉林省',
+	text: '吉林',
 	children: [{
 		value: "220100",
 		text: "长春"
@@ -316,7 +316,7 @@ var cityData = [{
 	}]
 }, {
 	value: '230000',
-	text: '黑龙江省',
+	text: '黑龙江',
 	children: [{
 		value: "230100",
 		text: "哈尔滨"
@@ -426,7 +426,7 @@ var cityData = [{
 	}]
 }, {
 	value: '320000',
-	text: '江苏省',
+	text: '江苏',
 	children: [{
 		value: "320100",
 		text: "南京"
@@ -469,7 +469,7 @@ var cityData = [{
 	}]
 }, {
 	value: '330000',
-	text: '浙江省',
+	text: '浙江',
 	children: [{
 		value: "330100",
 		text: "杭州"
@@ -506,7 +506,7 @@ var cityData = [{
 	}]
 }, {
 	value: '340000',
-	text: '安徽省',
+	text: '安徽',
 	children: [{
 		value: "340100",
 		text: "合肥"
@@ -558,7 +558,7 @@ var cityData = [{
 	}]
 }, {
 	value: '350000',
-	text: '福建省',
+	text: '福建',
 	children: [{
 		value: "350100",
 		text: "福州"
@@ -589,7 +589,7 @@ var cityData = [{
 	}]
 }, {
 	value: '360000',
-	text: '江西省',
+	text: '江西',
 	children: [{
 		value: "360100",
 		text: "南昌"
@@ -626,7 +626,7 @@ var cityData = [{
 	}]
 }, {
 	value: '370000',
-	text: '山东省',
+	text: '山东',
 	children: [{
 		value: "370100",
 		text: "济南"
@@ -681,7 +681,7 @@ var cityData = [{
 	}]
 }, {
 	value: '410000',
-	text: '河南省',
+	text: '河南',
 	children: [{
 		value: "410100",
 		text: "郑州"
@@ -739,7 +739,7 @@ var cityData = [{
 	}]
 }, {
 	value: '420000',
-	text: '湖北省',
+	text: '湖北',
 	children: [{
 		value: "420100",
 		text: "武汉"
@@ -794,7 +794,7 @@ var cityData = [{
 	}]
 }, {
 	value: '430000',
-	text: '湖南省',
+	text: '湖南',
 	children: [{
 		value: "430100",
 		text: "长沙"
@@ -840,7 +840,7 @@ var cityData = [{
 	}]
 }, {
 	value: '440000',
-	text: '广东省',
+	text: '广东',
 	children: [{
 		value: "440100",
 		text: "广州"
@@ -953,7 +953,7 @@ var cityData = [{
 	}]
 }, {
 	value: '460000',
-	text: '海南省',
+	text: '海南',
 	children: [{
 		value: "460100",
 		text: "海口"
@@ -1147,7 +1147,7 @@ var cityData = [{
 	}]
 }, {
 	value: '510000',
-	text: '四川省',
+	text: '四川',
 	children: [{
 		value: "510100",
 		text: "成都"
@@ -1214,7 +1214,7 @@ var cityData = [{
 	}]
 }, {
 	value: '520000',
-	text: '贵州省',
+	text: '贵州',
 	children: [{
 		value: "520100",
 		text: "贵阳"
@@ -1245,7 +1245,7 @@ var cityData = [{
 	}]
 }, {
 	value: '530000',
-	text: '云南省',
+	text: '云南',
 	children: [{
 		value: "530100",
 		text: "昆明"
@@ -1322,7 +1322,7 @@ var cityData = [{
 	}]
 }, {
 	value: '610000',
-	text: '陕西省',
+	text: '陕西',
 	children: [{
 		value: "610100",
 		text: "西安"
@@ -1356,7 +1356,7 @@ var cityData = [{
 	}]
 }, {
 	value: '620000',
-	text: '甘肃省',
+	text: '甘肃',
 	children: [{
 		value: "620100",
 		text: "兰州"
@@ -1402,7 +1402,7 @@ var cityData = [{
 	}]
 }, {
 	value: '630000',
-	text: '青海省',
+	text: '青海',
 	children: [{
 		value: "630100",
 		text: "西宁"
@@ -1507,7 +1507,7 @@ var cityData = [{
 	}]
 }, {
 	value: '710000',
-	text: '台湾省',
+	text: '台湾',
 	children: [{
 		value: "710100",
 		text: "台北"

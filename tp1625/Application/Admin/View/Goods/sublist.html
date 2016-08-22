@@ -13,10 +13,6 @@
 		<link rel="stylesheet" href="__PUBLIC__/mui/css/mui.min.css">
 		<!--App自定义的css-->
 		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mui/css/app.css"/>
-
-		<link rel="stylesheet" href="__PUBLIC__/mui/css/mui.min.css">
-		<!--App自定义的css-->
-		<link rel="stylesheet" type="text/css" href="__PUBLIC__/mui/css/app.css" />
 		<link href="__PUBLIC__/mui/css/mui.picker.css" rel="stylesheet" />
 		<link href="__PUBLIC__/mui/css/mui.poppicker.css" rel="stylesheet" />
 		<style>
@@ -34,7 +30,7 @@
 			.mui-btn {
 				font-size: 16px;
 				padding: 8px;
-				margin: 3px;
+				
 			}
 			h5.mui-content-padded {
 				margin-left: 3px;
@@ -45,7 +41,7 @@
 			}
 			.ui-alert {
 				text-align: center;
-				padding: 20px 10px;
+				padding: 3px 10px;
 				font-size: 16px;
 			}
 		</style>
@@ -57,31 +53,45 @@
 			<h1 class="mui-title">mui—支付</h1>
 		</header>
 		<div class="mui-content">
+
 			<div class="title">
 				<h5 style="background-color:#efeff4">支付</h5>
 			</div>
-			<div>
 
-				<div class="mui-card">
-				<form class="mui-input-group">
-				<volist name="paylist" id="vo">
-					<div class="mui-input-row mui-radio">
-						<label>{$vo.pay_name}</label>
-						<input name="radio1" type="radio">
-					</div>
-				</volist>
-				</form>
+			<form class="mui-input-group" action="{:U('Goods/subShow')}" method="post">
+			
+				<div class="title">
+					<h5 style="background-color:#efeff4">支付地址</h5>
+				</div>
+				<div class="mui-content-padded">
+					<div id='cityResult' class="ui-alert"></div>
+						<button id='showCityPicker3' class="mui-btn mui-btn-block" type='button'>选择地区</button>
+					<!-- <div id='cityResult3' class="ui-alert"></div> -->
+					<p id="selected_addr" class="ui-alert"></p>
+					<input type="hidden" name="cityselected" id='cityselected'>
+					
+				</div>
+				<div class="mui-content-padded" style="border:1px;">
+					<input type="text" name="address" placeholder="可填写具体地址">
 				</div>
 
-				<div class="mui-content-padded">
-				
-				<div id='cityResult' class="ui-alert"></div>
-				<button id='showCityPicker3' class="mui-btn mui-btn-block" type='button'>三级联动示例 ...</button>
-				<div id='cityResult3' class="ui-alert"></div>
-			</div>
-				
+				<div>
+					<div class="title">
+						<h5 style="background-color:#efeff4">支付方式</h5>
+					</div>
+					<div class="mui-card">
 
-			</div>
+						<volist name="paylist" id="vo">
+							<div class="mui-input-row mui-radio">
+								<label>{$vo.pay_name}</label>
+								<input name="pay_id" type="radio" value="{$vo.pay_id}">
+							</div>
+						</volist>
+					</div>
+				</div>
+			
+				<button type="submit" style="position:fixed;bottom:40px;font-size:30px;" class="mui-btn mui-btn-danger mui-btn-block">提交</button>
+			</form>	
 		</div>
 				
 		<nav class="mui-bar mui-bar-tab">
@@ -122,10 +132,14 @@
 					});
 					cityPicker3.setData(cityData3);
 					var showCityPickerButton = doc.getElementById('showCityPicker3');
-					var cityResult3 = doc.getElementById('cityResult3');
+					/*var cityResult3 = doc.getElementById('cityResult3');*/
+					var cityselected = doc.getElementById('cityselected');
+					var sel_addr = doc.getElementById('selected_addr');
 					showCityPickerButton.addEventListener('tap', function(event) {
 						cityPicker3.show(function(items) {
-							cityResult3.innerText = "你选择的城市是:" + (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
+							sel_addr.innerText = "你选择的城市是:" + (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
+							var str = sel_addr.innerText.substr(8);
+							cityselected.value = str;
 							//返回 false 可以阻止选择框的关闭
 							//return false;
 						});

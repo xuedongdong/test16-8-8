@@ -58,37 +58,23 @@
 				<h5 style="background-color:#efeff4">支付</h5>
 			</div>
 
-			<form class="mui-input-group" action="<?php echo U('Goods/subShow');?>" method="post">
+			<form class="mui-input-group" action="<?php echo U('Goods/subShowRes');?>" method="post">
 			
 				<div class="title">
-					<h5 style="background-color:#efeff4">支付地址</h5>
+					<h5 style="background-color:#efeff4">信息确认</h5>
 				</div>
 				<div class="mui-content-padded">
 					<div id='cityResult' class="ui-alert"></div>
-						<button id='showCityPicker3' class="mui-btn mui-btn-block" type='button'>选择地区</button>
-					<!-- <div id='cityResult3' class="ui-alert"></div> -->
-					<p id="selected_addr" class="ui-alert"></p>
-					<input type="hidden" name="cityselected" id='cityselected'>
-					
-				</div>
-				<div class="mui-content-padded" style="border:1px;">
-					<input type="text" name="address" placeholder="可填写具体地址">
-				</div>
-
-				<div>
-					<div class="title">
-						<h5 style="background-color:#efeff4">支付方式</h5>
-					</div>
-					<div class="mui-card">
-
-						<?php if(is_array($paylist)): $i = 0; $__LIST__ = $paylist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="mui-input-row mui-radio">
-								<label><?php echo ($vo["pay_name"]); ?></label>
-								<input name="pay_id" type="radio" value="<?php echo ($vo["pay_id"]); ?>">
-							</div><?php endforeach; endif; else: echo "" ;endif; ?>
-					</div>
-				</div>
+					<p class="ui-alert">地址：<?php echo ($data["address"]); ?></p>
+					<p class="ui-alert">支付方式：<?php echo ($data["pay_name"]); ?></p>
+					<p class="ui-alert">总价：￥<?php echo ($data["money_paid"]); ?></p>
+					<input type="hidden" name="user_id" value="<?php echo ($data["user_id"]); ?>">
+					<!-- <input name="cityselected" id="cityselected" value=<?php echo ($data["address"]); ?>>
+					<input name="address" value="<?php echo ($data["address"]); ?>">
+					<input name="pay_id" value="<?php echo ($data["pay_name"]); ?>">
+					<input name="money_paid" value="<?php echo ($data["money_paid"]); ?>"> -->
 			
-				<button type="submit" style="position:fixed;bottom:40px;font-size:30px;" class="mui-btn mui-btn-danger mui-btn-block">提交</button>
+				<button type="submit" style="position:fixed;bottom:40px;font-size:30px;" class="mui-btn mui-btn-danger mui-btn-block">付款</button>
 			</form>	
 		</div>
 				
@@ -120,17 +106,15 @@
 		<script src="/Public/mui/js/city.data-3.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" charset="utf-8">
 			mui('body').on('tap','a',function(){document.location.href=this.href;});
-				(function($, doc) {
+				/*(function($, doc) {
 				$.init();
 				$.ready(function() {
-					//-----------------------------------------
-					//					//级联示例
+					
 					var cityPicker3 = new $.PopPicker({
 						layer: 3
 					});
 					cityPicker3.setData(cityData3);
 					var showCityPickerButton = doc.getElementById('showCityPicker3');
-					/*var cityResult3 = doc.getElementById('cityResult3');*/
 					var cityselected = doc.getElementById('cityselected');
 					var sel_addr = doc.getElementById('selected_addr');
 					showCityPickerButton.addEventListener('tap', function(event) {
@@ -138,12 +122,11 @@
 							sel_addr.innerText = "你选择的城市是:" + (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
 							var str = sel_addr.innerText.substr(8);
 							cityselected.value = str;
-							//返回 false 可以阻止选择框的关闭
-							//return false;
+							
 						});
 					}, false);
 				});
-			})(mui, document);
+			})(mui, document);*/
 		</script>
 	</body>
 
