@@ -259,8 +259,11 @@ class GoodsController extends Controller {
 	}	
 
 	public function sort_goods(){
-		var_dump($_GET);
-		//$this->
+		//var_dump($_GET);exit();
+		$goods = M('goods');
+        $data = $goods->where("cat_id='".$_GET['cat_id']."'")->select();
+        $this->assign('list',$data);
+        $this->display('main');
 	}
 
 
