@@ -1,6 +1,6 @@
 <?php
 header("Content-type:text/html;charset=utf8");
-	$upfile = $_FILES['myfile'];
+	$upfile = @$_FILES['myfile'];
 	$path = "./uploads";
 	$typelist = array("image/jpeg", "image/gif", "image/png", "image/pjpeg",);
 	$filesize = -1;
@@ -60,9 +60,11 @@ header("Content-type:text/html;charset=utf8");
 
 
 <html>
-	<head><title>文件上传</title></head>
+	<head><title>文件上传</title>
+	<meta charset="utf-8">
+	</head>
 	<body>
-		<form action="upload.php" method="post" enctype="multipart/form-data">
+		<form action="upload1.php" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="MAX_FILE_SIZE" value="1000000">
 			选择文件：<input type="file" name="myfile">
 			<input type="submit" value="上传文件">

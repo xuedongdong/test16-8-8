@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>系统后台登录</title>
-    <link rel="stylesheet" href="/Public/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/Public/bootstrap/css/bootstrap-theme.min.css">
-    <script src="/Public/bootstrap/js/jquery-1.11.0.min.js"></script>
-    <script src="/Public/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/learn/tp1625/Public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/learn/tp1625/Public/bootstrap/css/bootstrap-theme.min.css">
+    <script src="/learn/tp1625/Public/bootstrap/js/jquery-1.11.0.min.js"></script>
+    <script src="/learn/tp1625/Public/bootstrap/js/bootstrap.min.js"></script>
     <style>
         body {
             width: 100%;
-            background: url("/Public/images/bg.jpg") no-repeat;
+            background: url("/learn/tp1625/Public/images/bg.jpg") no-repeat;
             background-size: 100%;
         }
         .col-center-block {
@@ -50,7 +50,7 @@
 <div class="col-xs-6 col-md-4 col-center-block">
     <h2 style="text-align: center">系统后台登录</h2>
     <hr/>
-    <form action="/index.php/Home/Index/do_login" method="post">
+    <form action="/learn/tp1625/index.php/Home/Index/do_login" method="post">
         <div class="form-group">
             <label for="input_username">用户名</label>
             <input type="text" class="form-control" id="input_username" name="user_name" placeholder="用户名">
@@ -126,7 +126,7 @@
                 return false;
             }
             $.ajax({
-                url: "/index.php/Home/Index/doRegister",
+                url: "/learn/tp1625/index.php/Home/Index/doRegister",
                 type: 'post',
                 data: {user_name: $('#user_name').val(), password: $('#password').val()},
                 dataType: 'JSON',

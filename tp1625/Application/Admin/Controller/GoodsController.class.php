@@ -280,6 +280,5 @@ class GoodsController extends Controller {
 		return $tree;
 	}
 
-
 }
 ?>

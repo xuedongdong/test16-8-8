@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29-dev/5, created on 2016-08-08 22:07:36
+/* Smarty version 3.1.29-dev/5, created on 2016-08-09 09:40:06
   from "D:\phpStudy\WWW\learn\1625ci\application\views\templates\product_list.php" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29-dev/5',
-  'unifunc' => 'content_57a89228b558c4_80608909',
+  'unifunc' => 'content_57a934765c8598_81470800',
   'file_dependency' => 
   array (
     '64a28e6871164591db27bc9810f7a6ffddea374d' => 
     array (
       0 => 'D:\\phpStudy\\WWW\\learn\\1625ci\\application\\views\\templates\\product_list.php',
-      1 => 1470665249,
+      1 => 1470665280,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_57a89228b558c4_80608909 ($_smarty_tpl) {
+function content_57a934765c8598_81470800 ($_smarty_tpl) {
 ?>
 <!DOCTYPE HTML>
 <html>

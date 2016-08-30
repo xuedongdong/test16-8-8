@@ -63,8 +63,10 @@ class Welcome extends CI_Controller {
 			$data = $this -> user_model ->user($user);
 			if ($data) {
 				if ($data['password'] == $_POST['password']) {
+					var_dump($data); exit;
 					$data['user_name'] = $_POST['user_name'];
-					redirect('/Welcome/sysindex/');
+					$this->session->set_userdata($data);
+					redirect('/Welcome/nav/');
 				}else{
 					$data = $this->verify();
 					$result['image'] = $data['image'];
@@ -116,19 +118,20 @@ class Welcome extends CI_Controller {
 			/*var_dump($cap['word']);*/
 	}
 
-	public function nav(){
-		$this -> load -> view('nav');
-	}
+	// public function nav(){
+	// 	$this -> load -> view('nav');
+	// }
 
-	public function sysindex(){
+	public function nav(){
 		$this -> load ->library('session');
 		$user_name = $this -> session ->userdata('user_name');
 		if (empty($user_name)) {
 			$this -> load ->helper('url');
-			redirect('Welcome/nav');
+			redirect('/Welcome/index');
 		}else{
 			$data['user_name'] = $user_name;
-			$this -> load ->view('sysindex',$data); 
+			$this -> load ->view('nav',$data);
+			//$data = $data['user_name'];
 		}
 	}
 
